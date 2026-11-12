@@ -1,0 +1,5 @@
+node_modules/
+.next/
+repro-output.log
+next-info.txt
+AGENTS.md

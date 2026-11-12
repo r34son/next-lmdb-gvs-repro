@@ -1,0 +1,6 @@
+virtualStoreType: global
+storeDir: ../next-lmdb-gvs-store
+minimumReleaseAge: 0
+ignoreScripts: true
+verifyDepsBeforeRun: false
+registry: https://registry.npmjs.org

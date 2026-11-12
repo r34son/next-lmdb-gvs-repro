@@ -1,0 +1,16 @@
+{
+  "name": "next-lmdb-gvs-repro",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@12.18.0",
+  "scripts": {
+    "build": "next build",
+    "repro": "node scripts/verify-standalone.mjs"
+  },
+  "dependencies": {
+    "lmdb-consumer": "file:./consumer",
+    "next": "16.5.0-canary.48",
+    "react": "19.2.3",
+    "react-dom": "19.2.3"
+  }
+}
